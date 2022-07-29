@@ -15,17 +15,17 @@ function SearchBar() {
     }
   }
   
-//   return (
-//     <>
-//       <div className="searchBox">
-//         <input
-//           type="search"
-//           className="search-bar"
-//           onChange={(e) => setSearch(e.target.value)}
-//           value={search}
-//           onKeyPress={searchCocktail}
-//         />
-//       </div>
+  return (
+    <>
+      <div className="searchBox">
+        <input
+          type="search"
+          className="search-bar"
+          onChange={(e) => setSearch(e.target.value)}
+          value={search}
+          onKeyPress={searchCocktail}
+        />
+      </div>
 //       <div className="container">
 //         {Mycocktail == null ? (
 //           <p className="notSearch">Not found</p>
