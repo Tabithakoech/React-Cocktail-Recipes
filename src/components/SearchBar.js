@@ -7,7 +7,7 @@ function SearchBar() {
     const searchCocktail=(evt)=>{
         if(evt.key=="Enter")
         {
-            fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${search}`)
+            fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${search}`)//fetching the data from the api
             .then(res=>res.json())
             .then(data=> {setCocktail(data.drinks);
                 setSearch("")})
