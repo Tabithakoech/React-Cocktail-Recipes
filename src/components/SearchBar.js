@@ -26,18 +26,17 @@ function SearchBar() {
           onKeyPress={searchCocktail}
         />
       </div>
-//       <div className="container">
-//         {Mycocktail == null ? (
-//           <p className="notSearch">Not found</p>
-//         ) : (
-//           Mycocktail.map((res) => {
-//            <li> key={res.idDrink}</li>
-//             return <CocktailList data={res} />;
-//           })
-//         )}
-//       </div>
-//     </>
-//   );
-// }
-
-// export default SearchBar
+      <div className="container">
+       {Mycocktail == null ? (
+         <p className="notSearch">Not found</p>
+        ) : (
+           Mycocktail.map((res) => {
+            <li> key={res.idDrink}</li>
+             return <CocktailList data={res} />;
+           })
+        )}
+      </div>
+     </>
+  );
+ 
+ export default SearchBar
