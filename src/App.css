@@ -6,7 +6,10 @@
   margin:0%;
   padding: 0%;
   box-sizing: border-box;
-  background-color: white;
+  background-color:#2C3639;
+  color: #DCD7C9;
+  font-family: 'Playfair Display', serif;
+
 }
 body{
   background-color: rgb(15,15,15)
@@ -14,8 +17,19 @@ body{
 .nav-item h3{
   font-family: 'Playfair Display', serif;
 }
+#navv li a{
+  color: #DCD7C9;
+}
+.about{
+  font-size: 2vw;
+  text-align: center;
+  padding: 10vw;
+  font-family: 'Playfair Display', serif;
+  
+
+}
 .heading h1{
-  color:black;
+  color:#DCD7C9;
   font-size: 48px;
   font-weight:900;
   letter-spacing: 1px;
@@ -24,7 +38,7 @@ body{
   /* text-shadow: 3px 6px rgba(50,50,70,0.7); */
 }
 .heading h4{
-  color:black;
+  color:#DCD7C9;
   text-align: center;
 }
 .searchBox{
@@ -67,7 +81,7 @@ body{
   width:100%;
 }
 .card .info{
-  color:black;  
+  color:#DCD7C9;  
   text-align: center;
 }
 
@@ -129,4 +143,16 @@ body{
 .recipe a{   
   display: block;
   text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn-dark {
+  background-color: #090909;
+  color: white;
+  border-radius: 6px;
+  padding: 12px 20px;
 }

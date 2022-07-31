@@ -39,12 +39,15 @@ Getting:
 * Open the folder location on terminal and use the following command to run app:
 
 ## How To Run It
-Use Live share extension to run the HTML File.
+Run
+### `npm install`
 ### `npm start`
 
 
+
+
 ## Live Link
-Or you can access the web application directly via this [LINK.](https://tabithakoech.github.io/Phase-1-final-project-cocktailDB-api/)
+Or you can access the web application directly via this [LINK.](https://react-cocktail-recipes-orpin.vercel.app/)
 
 
 ## Technologies Used
@@ -56,7 +59,7 @@ Or you can access the web application directly via this [LINK.](https://tabithak
 ## Contact Information
 * Email : tabitha.chepngetich@students.moringaschool.com
 
-## [License](./src/LICENCE)
+## [License](LICENCE)
 MIT License
 Copyright (c) 2022 Tabitha Chepngetich
 

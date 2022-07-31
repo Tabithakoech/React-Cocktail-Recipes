@@ -5,6 +5,7 @@ import CocktailDisplay from './components/CocktailDisplay';
 import NavBar from './components/NavBar';
 import { Routes,Route } from 'react-router-dom';
 import About from './components/About';
+import LikeButton from './components/LikeButton';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<SearchBar/>} />
         <Route exact path ="/about" element={<About/>} />
-        <Route exact path="/reviews" element={<CocktailDisplay/>} />
+        <Route exact path="/reviews" element={<LikeButton/>} />
       </Routes>
       </>
     </div>

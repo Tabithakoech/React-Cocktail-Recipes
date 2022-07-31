@@ -16,14 +16,14 @@ function SearchBar() {
   return (
     <>
       <div className="heading">
-       <h1>Search Your Cocktail Recipe</h1>
-       <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque tempore unde sed ducimus voluptates illum!</h4>
+       <h1>Cocktail Bazaar</h1>
+       <h4>An Oasis of Cocktail Recipes For Everyday Life</h4>
       </div>
       <div className="searchBox">
         <input
           type="search"
           className="search-bar"
-          placeholder='Search your  favourite cocktail'
+          placeholder='Search your cocktail by name and press enter'
           onChange={(e) => setSearch(e.target.value)}
           value={search}
           onKeyPress={searchCocktail}
@@ -31,7 +31,7 @@ function SearchBar() {
       </div>
       <div className="container">
        {Mycocktail == null ? (
-         <p className="notSearch">No Cocktails Matched your search!</p>
+         <p className="notSearch">Search Your Cocktail</p>
         ) : (
            Mycocktail.map((res) => {
             <li> key={res.idDrink}</li>
