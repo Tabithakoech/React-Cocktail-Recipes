@@ -14,9 +14,9 @@ Getting:
 
 
 ## SCREENSHOTS
-![Screenshot from 2022-06-26 21-02-19](https://user-images.githubusercontent.com/52375787/175827851-ef417ffa-87b2-4a75-b774-86b52774cb4f.png)
+![Screenshot from 2022-07-31 13-12-45](https://user-images.githubusercontent.com/52375787/182021478-a3c2bf39-a886-41f9-b4b2-58ec2042adf9.png)
 &nbsp;
-![Screenshot from 2022-06-26 21-06-21](https://user-images.githubusercontent.com/52375787/175827953-e094a04c-ffd9-41e4-b8e4-6bad0adfe864.png)
+![Screenshot from 2022-07-31 13-14-56](https://user-images.githubusercontent.com/52375787/182021530-084053dd-86a2-4dbd-a508-b4b2b58e0d5b.png)
 
 
 
