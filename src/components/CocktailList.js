@@ -1,25 +1,20 @@
 import React ,{useState}from 'react'
 // import LinesEllipsis from "react-lines-ellipsis";
 import '../App.css';
-
+import LikeButton from './LikeButton';
 
 function CocktailList(getCocktail) {
-
-
     console.log(getCocktail.data)
-    const[isClicked,setIsClicked]=useState(false)
 
-
-    return (
+      return (
         <>
             <div className="col-md-4">
                 <div className="card">
                     <img src={getCocktail.data.strDrinkThumb} alt="meal" />
                     <div className="info">
-                        <h2>{getCocktail.data.strDrink}<span><button className='likee' isClicked={isClicked} onClick={()=>
-                        setIsClicked(!isClicked)
-                        }>❤️</button></span></h2>
-                        <p>{getCocktail.data.strIngredient} food</p>
+                        <h2>{getCocktail.data.strDrink}</h2>
+                        <p>{getCocktail.data.strCategory} ::<span>{getCocktail.data.strAlcoholic}</span></p>
+                        <p>{getCocktail.data.strGlass}</p>
                     </div>
                     <div className="recipe">
                         <h2>Recipe</h2>
