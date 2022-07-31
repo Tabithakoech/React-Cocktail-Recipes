@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<SearchBar/>} />
         <Route exact path ="/about" element={<About/>} />
-        <Route exact path="/reviews" element={<LikeButton/>} />
+        <Route exact path="/contact" element={<LikeButton/>} />
       </Routes>
       </>
     </div>
