@@ -14,7 +14,7 @@ function CocktailList(getCocktail) {
                         <h2>{getCocktail.data.strDrink}</h2>
                         <p>{getCocktail.data.strCategory} ::<span>{getCocktail.data.strAlcoholic}</span></p>
                         <p>{getCocktail.data.strGlass}</p>
-                        <p>{getCocktail.data.strTags}</p>
+                        {/* <p>{getCocktail.data.strTags}</p> */}
 
                     </div>
                     <div className="recipe">
