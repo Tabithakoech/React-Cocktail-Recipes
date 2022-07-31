@@ -20,9 +20,7 @@ function SearchBar() {
        <h4>An Oasis of Cocktail Recipes For Everyday Life</h4>
       </div>
       <div className="searchBox">
-        <input
-          type="search"
-          className="search-bar"
+        <input type="search" className="search-bar"
           placeholder='Search your cocktail by name and press enter'
           onChange={(e) => setSearch(e.target.value)}
           value={search}

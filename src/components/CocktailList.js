@@ -1,7 +1,6 @@
-import React ,{useState}from 'react'
+import React from 'react'
 // import LinesEllipsis from "react-lines-ellipsis";
 import '../App.css';
-import LikeButton from './LikeButton';
 
 function CocktailList(getCocktail) {
     console.log(getCocktail.data)
@@ -15,6 +14,8 @@ function CocktailList(getCocktail) {
                         <h2>{getCocktail.data.strDrink}</h2>
                         <p>{getCocktail.data.strCategory} ::<span>{getCocktail.data.strAlcoholic}</span></p>
                         <p>{getCocktail.data.strGlass}</p>
+                        <p>{getCocktail.data.strTags}</p>
+
                     </div>
                     <div className="recipe">
                         <h2>Recipe</h2>
